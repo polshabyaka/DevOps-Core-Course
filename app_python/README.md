@@ -132,3 +132,11 @@ docker pull <dockerhub-username>/<repository-name>:<tag>
 ```bash
 docker run --rm -p <host-port>:<container-port> <dockerhub-username>/<repository-name>:<tag>
 ```
+
+## Development dependencies
+
+Install dev dependencies:
+
+```bash
+pip install -r requirements-dev.txt
+```
